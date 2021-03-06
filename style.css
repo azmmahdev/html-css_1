@@ -1,0 +1,127 @@
+body {
+    font-size: 15pt;
+    background-color: black;
+}
+
+
+#m1{
+  height: 600px;
+  background: linear-gradient(135deg,red,white);
+  border-radius: 30px;
+  text-shadow: 3px 20px blue;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 110px;
+  padding-top: 10px;
+  border-radius: 30px;
+margin-bottom: 10px;
+}
+
+#m2 {
+  height: 600px;
+  background: linear-gradient(135deg, yellow, white);
+  border-radius: 30px;
+   text-shadow: 3px 20px blue;
+}
+
+#m3 {
+  height: 600px;
+  background: linear-gradient(135deg, green, white);
+  border-radius: 30px;
+   text-shadow: 3px 20px blue;
+}
+
+div {
+  height: 600px;
+  background: linear-gradient(135deg,black, white);
+  border-radius: 30px;
+   text-shadow: 3px 20px blue;
+}
+
+#d5{
+  height: 600px;
+  background: linear-gradient(135deg, blue, white);
+  border-radius: 30px;
+   text-shadow: 3px 20px blue;
+}
+
+#d6{
+  height: 600px;
+  background: linear-gradient(135deg, Violet, white);
+  border-radius: 30px;
+   text-shadow: 3px 20px blue;
+}
+
+marquee{
+  color: white;
+  font-size: 40px;
+  max-width: 800px;
+  background-color: black;
+  margin-left: 13px;
+  text-align: center;
+   text-shadow: 3px 20px blue;
+
+}
+button{
+  color: white;
+  font-size: 25px;
+  background-color: blue;
+}
+
+/*Nav*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: mediumblue;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  margin-top: 120px;
+  background-color: mediumblue;
+  color: white;
+  font-size: 25px;
+  border: 5px solid orangered;
+  
+}
+
+pagination {
+  display: inline-block;
+  width: 100%;
+}
+
+pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
